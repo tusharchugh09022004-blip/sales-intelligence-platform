@@ -15,12 +15,12 @@ venv/
 env/
 ENV/
 
-# SQLite databases
-*.db
+# SQLite databases (kept for deployment)
+# *.db
 
 # Generated datasets (regenerated via pipeline)
-dataset/cleaned_sales_dataset.csv
-dataset/enriched_sales_dataset.csv
+# dataset/cleaned_sales_dataset.csv
+# dataset/enriched_sales_dataset.csv
 
 # Logs and temp files
 *.log
